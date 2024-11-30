@@ -1,0 +1,46 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.4s;
+}
+
+nav {
+  a {
+    padding-left: 20px;
+  }
+  a:first-child {
+    padding-left: 0;
+  }
+}
+
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.8);
+}
+.about {
+  display: flex;
+  align-items: center;
+
+  h1 {
+    padding-bottom: 30px;
+  }
+}
+
+video {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
